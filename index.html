@@ -3,56 +3,30 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Indice delle Classi</title>
-    <style>
-        body {
-            font-family: 'Arial', sans-serif;
-            margin: 20px;
-            background-color: #f9f9f9;
-            color: #333;
-        }
-        h1 {
-            color: #444;
-            text-align: center;
-            margin-bottom: 30px;
-        }
-        .class-container {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-            gap: 20px;
-            padding: 0;
-            list-style: none;
-        }
-        .class-item {
-            background: #fff;
-            border: 1px solid #ddd;
-            border-radius: 8px;
-            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-            padding: 15px;
-            text-align: center;
-            transition: transform 0.2s, box-shadow 0.2s;
-        }
-        .class-item:hover {
-            transform: translateY(-5px);
-            box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
-        }
-        .class-item a {
-            text-decoration: none;
-            color: #007BFF;
-            font-weight: bold;
-            font-size: 1.2em;
-        }
-        .class-item a:hover {
-            text-decoration: underline;
-        }
-    </style>
+    <title>SGPG - Homepage</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <h1>Indice delle Classi</h1>
-    <ul class="class-container">
-        <li class="class-item"><a href="4C_Fisica.html">4C Fisica</a></li>
-        <li class="class-item"><a href="4F_Fisica.html">4F Fisica</a></li>
-        <!-- Aggiungi altre classi qui -->
-    </ul>
+    <header>
+        <h1>SGPG</h1>
+        <p>Benvenuto nel portale SGPG. Naviga tra le sezioni per scoprire di più.</p>
+    </header>
+    <main>
+        <section class="card-container">
+            <div class="card">
+                <h2>Scuola</h2>
+                <p>Esplora le classi e i materiali didattici.</p>
+                <a href="scuola.html" class="button">Vai alla sezione</a>
+            </div>
+            <div class="card">
+                <h2>Lavori</h2>
+                <p>Scopri i progetti e i lavori realizzati.</p>
+                <a href="#" class="button">Vai alla sezione</a>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 SGPG. Tutti i diritti riservati.</p>
+    </footer>
 </body>
 </html>

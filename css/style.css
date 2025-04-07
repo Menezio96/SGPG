@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa; /* Grigio chiaro elegante */
+    color: #333; /* Testo scuro per leggibilità */
+}
+
+header {
+    text-align: center;
+    padding: 30px;
+    background-color: #0052a9; /* Blu professionale */
+    color: white;
+}
+
+header h1 {
+    font-size: 2.5em; /* Titolo più grande */
+    font-weight: 700;
+    margin: 0;
+}
+
+header p {
+    font-size: 1.2em;
+    font-weight: 400;
+    margin: 10px 0 0;
+}
+
+main {
+    padding: 40px 20px;
+}
+
+.card-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+    margin: 20px 0;
+}
+
+.card {
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.2s, box-shadow 0.2s;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Ombra leggera */
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15); /* Effetto hover più elegante */
+}
+
+.card h2 {
+    font-size: 1.5em;
+    font-weight: 500;
+    margin-bottom: 10px;
+    color: #0052a9; /* Colore blu per i titoli */
+}
+
+.card p {
+    font-size: 1em;
+    margin-bottom: 20px;
+    color: #555; /* Testo più tenue */
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #0052a9; /* Blu per i pulsanti */
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: 500;
+    font-size: 1em;
+    transition: background-color 0.2s;
+}
+
+.button:hover {
+    background-color: #0056b3; /* Blu più scuro al passaggio del mouse */
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #343a40; /* Grigio scuro per il footer */
+    color: white;
+    font-size: 0.9em;
+}
+
+.styled-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 1em;
+    font-family: 'Roboto', sans-serif;
+    background-color: white;
+    color: #333;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Ombra leggera */
+    overflow: hidden;
+}
+
+.styled-table thead tr {
+    background-color: #0052a9; /* Blu professionale */
+    color: #ffffff;
+    text-align: left;
+    font-weight: bold;
+}
+
+.styled-table th,
+.styled-table td {
+    padding: 12px 15px;
+}
+
+.styled-table tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
+
+.styled-table tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3; /* Riga alternata */
+}
+
+.styled-table tbody tr:last-of-type {
+    border-bottom: 2px solid #0052a9;
+}
+
+.styled-table tbody tr:hover {
+    background-color: #f1f1f1; /* Effetto hover */
+}
+
+.styled-table a {
+    color: #0052a9;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.styled-table a:hover {
+    text-decoration: underline;
+}
